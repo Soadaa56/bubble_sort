@@ -7,6 +7,7 @@ def bubble_sort(nums)
   iteration_counter = 0
 
   while i < nums.length
+  # checks if end of the array, stops error comparing integer to nil in next step
    if nums[i+1].nil?
     i = -1
     iteration_counter += 1
